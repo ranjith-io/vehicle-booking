@@ -1,0 +1,73 @@
+/* BookingForm.css */
+form {
+    
+    height: 500px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: hsl(39, 69%, 89%);
+  }
+  
+
+  form label {
+    padding: 8px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input,
+  form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  
+  form input:focus,
+  form select:focus {
+    outline: none;
+    border-color: #fb8d26;
+    box-shadow: 0 0 5px rgba(251, 141, 38, 0.5);
+  }
+  
+  form button {
+    width: 90%;
+    padding: 12px;
+    background-color: #fb8d26;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:30px;
+  }
+  
+  form button:hover {
+    background-color: #e67a1f;
+  }
+  
+  form button:disabled {
+    background-color: #ffc490;
+    cursor: not-allowed;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fb8d26;
+  }
+  
+  
