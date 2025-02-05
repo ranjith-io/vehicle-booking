@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -163,4 +162,9 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> fa2e9ad (Initialized)
+# local files
+/src/utils/firebaseConfig.js
+src/utils/firebaseConfig.js
+firebaseConfig.js
+# Ignore Firebase config
+src/utils/firebaseconfig.js
